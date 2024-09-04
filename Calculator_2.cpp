@@ -3,10 +3,7 @@
 #include <cmath>
 using namespace std;
 
-int main(void){
-    cout << "Nerd, imagine using a calculator" << endl;
-    string history = "";
-    while (1 == 1){
+void runCalculator(){
     double num1;
     double num2;
     char op;
@@ -58,7 +55,13 @@ int main(void){
     cout << " " << endl;
     }
 
+int main(void){
+    cout << "Nerd, imagine using a calculator" << endl;
+    string history = "";
+    while (1 == 1){
+    runCalculator();
     return 0;
+}
 }
 
 
